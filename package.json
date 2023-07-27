@@ -1,0 +1,17 @@
+{
+  "name": "get-mapped-value",
+  "version": "0.0.1",
+  "description": "strongly typed utility function for mapping",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "author": "Yauhen Shchamialiou",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
