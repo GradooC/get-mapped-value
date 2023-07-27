@@ -22,9 +22,11 @@ jobs:
           node-version: 18.x
           cache: 'yarn'
 
-      - run: yarn install
+      - name: Install
+        run: yarn install
 
-      - run: yarn lint && yarn build
+      - name: Lint
+        run: yarn lint
 
       - name: Create Release Pull Request
         uses: changesets/action@v1

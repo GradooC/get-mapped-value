@@ -23,6 +23,8 @@ jobs:
           node-version: ${{ matrix.node_version }}
           cache: 'yarn'
 
-      - run: yarn install
+      - name: Install
+        run: yarn install
 
-      - run: yarn lint && yarn build
+      - name: Lint and Build
+        run: yarn lint && yarn build
