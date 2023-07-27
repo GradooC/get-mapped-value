@@ -1,14 +1,13 @@
-name: CI
+name: Publish
 on:
   push:
-    branches-ignore:
+    branches:
       - "main"
+
+concurrency: publish-${{ github.ref }}
 
 jobs:
   build:
-    strategy:
-      matrix:
-        node_version: [16.x, 18.x, 20.x]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,9 +19,16 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node_version }}
+          node-version: 18.x
           cache: 'yarn'
 
       - run: yarn install
 
       - run: yarn lint && yarn build
+
+      - name: Create Release Pull Request
+        uses: changesets/action@v1
+        with:
+          publish: yarn build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
