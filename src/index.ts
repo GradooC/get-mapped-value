@@ -16,6 +16,8 @@ import { FullOptions, MapperResult, Methods, Options, OptionsWithKey, OptionsWit
  * getMappedValue({ one: 1 }, 'ONE', { normalizingMethod: 'toLowerCase' }); // 1
  *
  * getMappedValue({ one: 1 }, 'ONE', { defaultKey: 'one' }); // 1
+ * 
+ * getMappedValue({ one: 1 }, 'two', { normalizingMethod: 'toUpperCase' }); // undefined
  *
  */
 export function getMappedValue<O extends Record<string, unknown>, T extends string>(map: O, key: T): MapperResult<O, T, undefined, undefined>;
