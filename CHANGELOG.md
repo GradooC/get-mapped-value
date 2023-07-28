@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.0.4
+
+### Patch Changes
+
+- 314ac91: fix missing the dist folder in npm
+
 ## 0.0.3
 
 ### Patch Changes
