@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "publish": "yarn build && yarn changeset publish",
+    "release": "yarn build && changeset publish",
     "new-version": "yarn changeset"
   },
   "author": "Yauhen Shchamialiou",
