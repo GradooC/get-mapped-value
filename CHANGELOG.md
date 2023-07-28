@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.0.5
+
+### Patch Changes
+
+- 50cf1db: fix the publish workflow
+
 ## 0.0.4
 
 ### Patch Changes
