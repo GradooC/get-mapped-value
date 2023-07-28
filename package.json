@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "publish": "yarn build && yarn changeset publish"
   },
   "author": "Yauhen Shchamialiou",
   "license": "MIT",
