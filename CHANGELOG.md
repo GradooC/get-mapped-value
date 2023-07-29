@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.0.7
+
+### Patch Changes
+
+- 18c4058: add tests
+
 ## 0.0.6
 
 ### Patch Changes
