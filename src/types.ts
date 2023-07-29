@@ -1,7 +1,7 @@
 export type Methods = "toLowerCase" | "toUpperCase";
 export type Options<D, M> = { defaultKey?: D; normalizingMethod?: M };
-export type OptionsWithKey<D> = { defaultKey: D };
-export type OptionsWithMethod<M> = { normalizingMethod: M };
+export type OptionsWithKey<D> = { defaultKey: D; normalizingMethod?: undefined };
+export type OptionsWithMethod<M> = { defaultKey?: undefined; normalizingMethod: M };
 export type FullOptions<D, M> = { defaultKey: D; normalizingMethod: M };
 
 type Nullable<T> = T | undefined;
