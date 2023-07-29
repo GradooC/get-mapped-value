@@ -26,5 +26,11 @@ jobs:
       - name: Install
         run: yarn install
 
-      - name: Lint and Build
-        run: yarn lint && yarn build
+      - name: Lint
+        run: yarn lint
+
+      - name: Test
+        run: yarn test
+
+      - name: Build
+        run: yarn build
