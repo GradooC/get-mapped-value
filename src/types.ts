@@ -3,6 +3,7 @@ export type Options<D, M> = { defaultKey?: D; normalizingMethod?: M };
 export type OptionsWithKey<D> = { defaultKey: D; normalizingMethod?: undefined };
 export type OptionsWithMethod<M> = { defaultKey?: undefined; normalizingMethod: M };
 export type FullOptions<D, M> = { defaultKey: D; normalizingMethod: M };
+export type NeverOptions<D, M> = { defaultKey?: D; normalizingMethod?: M };
 
 type Nullable<T> = T | undefined;
 
