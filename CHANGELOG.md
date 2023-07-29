@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.0.6
+
+### Patch Changes
+
+- c68d2d1: fix autocompletion
+
 ## 0.0.5
 
 ### Patch Changes
