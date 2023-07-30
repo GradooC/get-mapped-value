@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.0.8
+
+### Patch Changes
+
+- 79a5ffc: add eslint
+
 ## 0.0.7
 
 ### Patch Changes
