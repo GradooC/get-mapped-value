@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.0.9
+
+### Patch Changes
+
+- 3bb13da: remove unnecessary type
+
 ## 0.0.8
 
 ### Patch Changes
