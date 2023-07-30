@@ -1,4 +1,4 @@
-import type { FullOptions, MapperResult, Methods, Options, OptionsWithKey, OptionsWithMethod, NeverOptions } from "./types";
+import type { FullOptions, MapperResult, Methods, Options, OptionsWithKey, OptionsWithMethod, NeverOptions } from './types';
 
 /**
  * Strongly typed utility function for mapping values
