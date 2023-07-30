@@ -10,7 +10,7 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint:ts": "tsc",
     "lint:eslint": "eslint --ext .js,.ts,.json .",
-    "lint": "lint:ts && lint:eslint",
+    "lint": "yarn lint:ts && yarn lint:eslint",
     "release": "yarn build && changeset publish",
     "new-version": "yarn changeset",
     "test": "jest",
