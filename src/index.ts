@@ -1,4 +1,4 @@
-import type { FullOptions, MapperResult, Methods, Options, OptionsWithKey, OptionsWithMethod, NeverOptions } from './types';
+import type { FullOptions, MapperResult, Methods, Options, OptionsWithKey, OptionsWithMethod } from './types';
 
 /**
  * Strongly typed utility function for mapping values
@@ -24,7 +24,7 @@ export function getMappedValue<O extends Record<string, unknown>, T extends stri
 export function getMappedValue<O extends Record<string, unknown>, T extends string, D extends keyof O>(map: O, key: T, options: OptionsWithKey<D>): MapperResult<O, T, D, undefined>;
 export function getMappedValue<O extends Record<string, unknown>, T extends string, M extends Methods>(map: O, key: T, options: OptionsWithMethod<M>): MapperResult<O, T, undefined, M>;
 export function getMappedValue<O extends Record<string, unknown>, T extends string, D extends keyof O, M extends Methods>(map: O, key: T, options: FullOptions<D, M>): MapperResult<O, T, D, M>;
-export function getMappedValue<O extends Record<string, unknown>, T extends string, D extends keyof O, M extends Methods>(map: O, key: T, options?: NeverOptions<D, M>): never;
+export function getMappedValue<O extends Record<string, unknown>, T extends string, D extends keyof O, M extends Methods>(map: O, key: T, options?: Options<D, M>): never;
 export function getMappedValue<O extends Record<string, unknown>, T extends string, D extends keyof O, M extends Methods>(map: O, key: T, options: Options<D, M> = {}) {
     const { defaultKey, normalizingMethod } = options;
 
