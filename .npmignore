@@ -4,3 +4,5 @@
 .editorconfig
 .nvmrc
 .prettierrc
+jest.config.js
+tsconfig.json
