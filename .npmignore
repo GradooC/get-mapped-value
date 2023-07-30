@@ -6,3 +6,4 @@
 .prettierrc
 jest.config.js
 tsconfig.json
+.eslintrc.json
