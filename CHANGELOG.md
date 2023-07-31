@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.1.0
+
+### Minor Changes
+
+- 68cf95a: fix the general types
+
 ## 0.0.9
 
 ### Patch Changes
