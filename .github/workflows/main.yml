@@ -36,6 +36,7 @@ jobs:
         run: yarn build
 
       - name: Upload coverage reports to Codecov
+        if: success() && matrix.node_version == '20.x'
         uses: codecov/codecov-action@v3
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
