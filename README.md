@@ -2,8 +2,10 @@
 
 Strongly typed utility function for mapping
 
-[![GitHub Workflow Status][build-badge]][build]
-[![npm package][npm-badge]][npm]
+![NPM License](https://img.shields.io/npm/l/get-mapped-value)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/GradooC/get-mapped-value/publish.yml)
+![npm bundle size](https://img.shields.io/bundlephobia/min/get-mapped-value)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/GradooC/get-mapped-value)
 
 ## Installation
 
