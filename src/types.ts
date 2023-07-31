@@ -6,7 +6,9 @@ export type FullOptions<D, M> = { defaultKey: D; normalizingMethod: M };
 
 type Nullable<T> = T | undefined;
 
-type AllValues<O extends Record<string, unknown>> = O[keyof O] | undefined;
+type GeneralValue<O extends Record<string, unknown>, D extends Nullable<keyof O>> = D extends undefined
+    ? O[keyof O] | undefined
+    : O[NonNullable<D>];
 
 type DefaultValue<O extends Record<string, unknown>, D extends Nullable<keyof O>> = D extends undefined
     ? undefined
@@ -42,4 +44,4 @@ export type MapperResult<
     T extends string,
     D extends Nullable<keyof O>,
     M extends Nullable<Methods>,
-> = string extends T ? AllValues<O> : MappedValue<O, T, D, M>;
+> = string extends T ? GeneralValue<O, D> : MappedValue<O, T, D, M>;
