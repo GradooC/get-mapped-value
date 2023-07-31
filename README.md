@@ -6,6 +6,7 @@ Strongly typed utility function for mapping
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/GradooC/get-mapped-value/publish.yml)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/get-mapped-value)
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/GradooC/get-mapped-value)
+[![codecov](https://codecov.io/gh/GradooC/get-mapped-value/branch/main/graph/badge.svg?token=Y9QLKW9XZ7)](https://codecov.io/gh/GradooC/get-mapped-value)
 
 ## Installation
 
