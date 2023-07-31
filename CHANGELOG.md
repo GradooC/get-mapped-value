@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.1.2
+
+### Patch Changes
+
+- 339e3f6: fix the badges
+
 ## 0.1.1
 
 ### Patch Changes
