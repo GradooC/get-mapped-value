@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.1.3
+
+### Patch Changes
+
+- 7dec152: add codecov integration
+
 ## 0.1.2
 
 ### Patch Changes
