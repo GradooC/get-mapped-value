@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.1.5
+
+### Patch Changes
+
+- 57c9b08: add keywords
+
 ## 0.1.4
 
 ### Patch Changes
