@@ -6,6 +6,11 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/GradooC/get-mapped-value.git",
+  "keywords": [
+    "mapping",
+    "utility",
+    "typescript"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint:ts": "tsc",
