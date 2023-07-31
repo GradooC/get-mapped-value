@@ -1,5 +1,11 @@
 # get-mapped-value
 
+## 0.1.4
+
+### Patch Changes
+
+- 1d6c2e5: add coverage folder to .npmignore
+
 ## 0.1.3
 
 ### Patch Changes
