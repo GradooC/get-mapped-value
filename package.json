@@ -13,7 +13,7 @@
     "lint": "yarn lint:ts && yarn lint:eslint",
     "release": "yarn build && changeset publish",
     "new-version": "yarn changeset",
-    "test": "jest",
+    "test": "jest --coverage",
     "format": "yarn lint:eslint --fix"
   },
   "author": "Yauhen Shchamialiou",
