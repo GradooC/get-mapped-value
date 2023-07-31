@@ -3,9 +3,9 @@
 Strongly typed utility function for mapping
 
 ![NPM License](https://img.shields.io/npm/l/get-mapped-value)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/GradooC/get-mapped-value/publish.yml)
+[![GitHub Workflow Status](https://github.com/GradooC/get-mapped-value/actions/workflows/publish.yml/badge.svg)](https://github.com/GradooC/get-mapped-value/actions/workflows/publish.yml)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/get-mapped-value)
-![GitHub release (with filter)](https://img.shields.io/github/v/release/GradooC/get-mapped-value)
+[![GitHub release](https://img.shields.io/github/v/release/GradooC/get-mapped-value)](https://github.com/GradooC/get-mapped-value/releases)
 [![codecov](https://codecov.io/gh/GradooC/get-mapped-value/branch/main/graph/badge.svg?token=Y9QLKW9XZ7)](https://codecov.io/gh/GradooC/get-mapped-value)
 
 ## Installation
